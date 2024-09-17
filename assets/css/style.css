@@ -274,6 +274,20 @@ section{
     font-weight: 400;
     text-align: center;
 }
+.expert .contenu .box .text {
+    position: relative;
+}
+
+.expert .contenu .box .post {
+    position: absolute;
+    color: var(--red-normal);
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+}
 
 /****************** SECTION TEMOIGNAGES ********************/
 
