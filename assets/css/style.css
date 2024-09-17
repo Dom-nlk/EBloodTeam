@@ -307,6 +307,7 @@ section{
 }
 .temoignage .contenu .box{
     width: 300px;
+    height: 400px;
     margin: 20px;
     background: #fff;
     display: flex;
