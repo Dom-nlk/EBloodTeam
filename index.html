@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Dom Restaurent</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">E-<span>Blood</span>Bank</a>
+        <div class="menutoggle" onclick="toggleMenu();"></div>
+        <ul class="navbar">
+            <li><a href="#ban" onclick="toggleMenu();">Accueil</a></li>
+            <li><a href="#propos" onclick="toggleMenu();">A propos</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Experts</a></li>
+            <li><a href="#temoignage" onclick="toggleMenu();">Témoignages</a></li>
+            <a href="#contact" class="btn-reserve" onclick="toggleMenu();">Nous rejoindre</a>
+        </ul>
+    </header>
+    <section class="banniere" id="ban">
+        <div class="overlay"></div>
+        <div class="contenu">
+            <h2>Avec EBlood, sauvons des vies en un clic</h2>
+            <p>“Nous offrons un service sécurisé et traçable de commande, livraison et gestion de poches de sang, garantissant la chaîne du froid grâce à nos glacières connectées.”</p>
+            <a href="#menu" class="btn1">Services</a>
+            <a href="#contact" class="btn2" id="reserver">Rejoindre</a>
+        </div>
+    </section>
+
+    <section class="apropos" id="propos">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+                <p>
+                    EBloodBank est une initiative dédiée à la révolution des services 
+                    de transfusion sanguine en République Démocratique du Congo. 
+                    Grâce à notre plateforme numérique innovante, nous facilitons 
+                    la commande, la gestion et la livraison sécurisée de poches de 
+                    sang aux hôpitaux et établissements de santé. Notre équipe est 
+                    composée de professionnels passionnés par l'amélioration des 
+                    soins de santé, combinant expertise technologique et engagement 
+                    humanitaire pour sauver des vies. Ensemble, nous œuvrons à créer 
+                    un accès rapide et fiable au sang, notamment pour les urgences, 
+                    afin de réduire les décès évitables liés aux transfusions tardives.
+                </p>
+            </div>
+            <div class="col50">
+                <div class="imag">
+                    <img src="assets/images/e_blood_logo_red.png" alt="Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="titre">
+            <h2 class="titre-texte">Nos <span>S</span>ervices</h2>
+            <p>
+                Découvrez une gamme de services innovants conçus pour 
+                assurer une gestion efficace, sécurisée et rapide des 
+                poches de sang, de la commande à la livraison.
+            </p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/order.png" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Commande en ligne</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/stock.png" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Gestion des stocks</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/moto.png" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Livraison par moto</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/suivi.png" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Suivi des livraisons</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/notification.png" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Notifications automatiques</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/website.png" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Plateformes web et mobile</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/customer.png" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Assistance client</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/payment.png" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Paiements sécurisés</h3>
+                </div>
+            </div>
+        </div>
+        <div class="titre">
+            <a href="#" class="btn1">Voir plus</a>
+        </div>
+    </section>
+
+    <section class="expert" id="expert">
+        <div class="titre">
+            <h2 class="titre-texte">Nos <span>E</span>xperts</h2>
+            <p>
+                Rencontrez notre équipe d'experts dédiés, passionnés 
+                par l'innovation en matière de santé et prêts à relever 
+                les défis liés à la gestion des transfusions sanguines.
+            </p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/mike.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Mike Nlemvo</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/heureux.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Heureux Matungulu</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/amedee.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Amédée Mudiolo</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/hena.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Hena Ndombele</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/dom.jpeg " alt="image">
+                </div>
+                <div class="text">
+                    <h3>Dominique Nlandu</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/auguste.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Auguste</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/equipe4.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Rodrigue</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/chadrack.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Chadrack Panzu</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/equipe4.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <h3>Joseph</h3>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="temoignage" id="temoignage">
+        <div class="titre blanc">
+            <h2 class="titre-texte">Que disent nos <span>C</span>lients</h2>
+            <p>
+                Ceux qui ont fait confiance à E-BloodBank partagent leurs expériences. 
+                Découvrez comment notre solution a transformé la gestion des stocks 
+                de sang dans les établissements de santé.
+            </p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/t1.jpeg" alt="image">
+                </div>
+                <div class="text">
+                    <p>
+                        "Grâce à E-BloodBank, nous avons pu simplifier tout le processus 
+                        de commande et de livraison de poches de sang. L'interface est 
+                        facile à utiliser, et la traçabilité des glacières connectées nous 
+                        rassure énormément. Un service de qualité que je n'hésite pas à recommander."
+                    </p>
+                    <h3>Marc Mutombo</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/t2.jpg " alt="image">
+                </div>
+                <div class="text">
+                    <p>
+                        "Le service d'E-BloodBank a véritablement transformé notre façon de 
+                        travailler. La gestion des livraisons est beaucoup plus fluide, et 
+                        le suivi de la température des poches de sang est un vrai plus pour 
+                        garantir la sécurité des transfusions."
+                    </p>
+                    <h3>Obed Matondo</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/t3.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <p>
+                        "E-BloodBank a révolutionné notre gestion des stocks. 
+                        La possibilité de suivre en temps réel les livraisons 
+                        et la gestion des commandes nous a permis de gagner 
+                        en efficacité. Un service indispensable pour les banques de sang."
+                    </p>
+                    <h3>Paul Mokonzi</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="assets/images/t4.jpg" alt="image">
+                </div>
+                <div class="text">
+                    <p>
+                        "Je suis vraiment impressionnée par l'efficacité et la rapidité 
+                        du service. E-BloodBank a facilité la gestion des stocks de sang 
+                        pour notre hôpital, garantissant ainsi la sécurité des patients. 
+                        Leur suivi en temps réel est exceptionnel, et je recommande vivement leurs services."
+                    </p>
+                    <h3>Jeanne Topango</h3>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="titre noir">
+            <h2 class="titre-texte"><span>C</span>ontact</h2>
+            <p>
+                Une question, une demande de partenariat ou besoin 
+                d'assistance ? Nous sommes là pour vous aider. 
+                Contactez-nous pour en savoir plus sur nos services.
+            </p>
+        </div>
+        <div class="contactform">
+            <h3>Envoyer un message</h3>
+            <div class="inputboite">
+                <input type="text" placeholder="Nom">
+            </div>
+            <div class="inputboite">
+                <input type="text" placeholder="email">
+            </div>
+            <div class="inputboite">
+                <textarea placeholder="message"></textarea>
+            </div>
+            <div class="inputboite">
+                <input type="submit" value="Envoyer">
+            </div>
+        </div>
+    </section>
+
+    <div class="Copyright">
+        <p>Copyright 2024<a href="#">@EBloodBank </a>. Tous droits reservés</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            const menutoggle = document.querySelector('.menutoggle');
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+            menutoggle.classList.toggle('active');
+        }
+
+    </script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
