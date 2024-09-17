@@ -281,11 +281,12 @@ section{
 .expert .contenu .box .post {
     position: absolute;
     color: var(--red-normal);
+    width: 100%;
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1em;
-    font-weight: 600;
+    /*font-weight: 600;*/
     text-align: center;
 }
 
