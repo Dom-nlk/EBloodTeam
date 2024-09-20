@@ -82,7 +82,7 @@ header .navbar li a:hover{
 
 .banniere{
     position: relative;
-    width: 100%;
+    /*width: 100%;*/
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -152,8 +152,7 @@ header .navbar li a:hover{
 }
 
 @media screen and (max-width: 450px) {
-    .banniere {
-        width: auto;
+    .banniere, .apropos {
     }
 
 }
