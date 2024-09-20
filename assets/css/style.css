@@ -151,6 +151,13 @@ header .navbar li a:hover{
 
 }
 
+@media screen and (max-width: 450px) {
+    .banniere {
+        width: auto;
+    }
+
+}
+
 /****************** SECTION A PROPOS ********************/
 
 section{
@@ -193,7 +200,7 @@ section{
 
 @media screen and (max-width: 450px) {
     .row .col50 .imag {
-        width: 250px;
+        width: 200px;
     }
 
 }
@@ -439,7 +446,7 @@ textarea {
     }
     .contactform {
         width: 200px;
-        margin: 0;
+        margin: 5px;
     }
 
 }
