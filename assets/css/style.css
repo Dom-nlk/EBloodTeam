@@ -154,6 +154,9 @@ header .navbar li a:hover{
 @media screen and (max-width: 450px) {
     .banniere, .apropos {
     }
+    .banniere .contenu {
+        max-width: 95%;
+    }
 
 }
 
@@ -301,6 +304,12 @@ section{
     font-size: 1em;
     /*font-weight: 600;*/
     text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .expert .contenu .box {
+        transform: scale(0.8);
+    }
 }
 
 /****************** SECTION TEMOIGNAGES ********************/
